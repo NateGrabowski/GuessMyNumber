@@ -31,7 +31,7 @@ document.querySelector('.again').addEventListener('click', function () {
     document.querySelector('.guess').value = '';
 
     // //Cheat line for 'Again Button'
-    document.querySelector('.number').textContent = secretNumber;
+    // document.querySelector('.number').textContent = secretNumber;
   } else {
     console.log(-1);
   }
